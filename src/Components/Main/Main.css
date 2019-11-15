@@ -1,0 +1,125 @@
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.main-content {
+  display: flex;
+  width: 65%;
+  padding: 25px 0 0 0;
+}
+
+main aside {
+  width: 272px;
+  display: inline-block;
+  margin-right: 3em;
+}
+
+aside img {
+  height: 271px;
+  width: 271px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+main section {
+  display: inline-block;
+}
+
+.repo-n-nav {
+  width: 100%;
+}
+
+.report {
+  font-size: .75rem;
+}
+
+.report:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.grey-text {
+  color: #655F5C;
+}
+
+.name{
+  font-size: 1.625rem;
+}
+
+.username {
+  font-weight: normal;
+  font-size: 1.25rem;
+}
+
+.bio {
+  padding-top: 1em;
+  padding-bottom: 2em;
+  font-size: .875rem;
+}
+
+.repo-nav {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+}
+
+.repo-nav li {
+  margin-right: 16px;
+  color: #586069;
+  cursor: pointer;
+  font-size: .875rem;
+  font-weight: normal;
+  display: inline-block;
+  padding: 16px 8px;
+}
+
+.repo-nav .active {
+  font-weight: 900;
+}
+
+.repo-nav li:hover {
+  color: #3d4044;
+  border-bottom: 2px solid lightgrey;
+}
+
+.repo-nav li:nth-of-type(1) {
+  border-bottom: 3px solid #DF570C;
+}
+
+.repos-title {
+  font-weight: normal;
+  padding: 25px 0 8px 0;
+  font-size: 1rem;
+}
+
+.repositories {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.stats {
+  display: flex;
+  align-self: baseline;
+}
+
+.stats li {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  display: inline-block;
+  margin: 0.5em;
+}
+
+.seperator {
+  margin: 1em 0;
+}
+
+a {
+  color: #035cd0;
+  text-decoration: none;
+}

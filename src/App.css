@@ -1,22 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+  font-size: 16px;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.flex {
+  display: flex;
+}
+
+.flex-dir-c {
+  flex-direction: column;
+}
+
+.flex-dir-r {
+  flex-direction: row;
+}
+
+.flex-just-sp-b {
+  justify-content: space-between;
+}
+
+.flex-align-c {
+  align-items: center;
+}
+
+.emoji {
+  width: 16.8px;
+  height: 16.8px;
+  margin: 0;
 }

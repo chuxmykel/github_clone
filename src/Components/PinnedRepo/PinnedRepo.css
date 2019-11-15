@@ -1,0 +1,60 @@
+.pinned {
+  border: 1px solid lightgray;
+  padding: 1rem;
+}
+
+.pinned-title {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: .87rem;
+}
+
+.pinned-title a:hover {
+  border-bottom: 1px solid blue;
+}
+
+.pinned-repo-wrapper {
+  width: 49.4%;
+  margin-bottom: 0.5em;
+}
+
+
+.pinned-description {
+  margin: 8px 0 16px;
+  overflow-wrap: break-word;
+  color: rgb(116, 116, 116);
+}
+
+.pinned-description,
+.pinned-footer {
+  font-size: .75rem;
+}
+
+
+.repo-img {
+  margin: 0 8px -4px 0;
+}
+
+.repo-img img {
+  width: 12px;
+  height: 16px;
+}
+
+.language-color-ball {
+  height: 12px;
+  width:12px;
+  background-color: blue;
+  border-radius: 6px;
+  margin-right: 4px;
+}
+
+.fa-bars {
+  color: lightgrey;
+  cursor: pointer;
+}
+
+.pinned-title {
+  height: 30px;
+}
