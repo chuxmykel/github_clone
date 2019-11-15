@@ -25,6 +25,7 @@
   margin: 8px 0 16px;
   overflow-wrap: break-word;
   color: rgb(116, 116, 116);
+  min-height: 40px;
 }
 
 .pinned-description,

@@ -123,3 +123,12 @@ a {
   color: #035cd0;
   text-decoration: none;
 }
+
+span.stat {
+  background-color: rgba(27, 31, 35, 0.123);
+  font-size: .75rem;
+  font-weight: 600 !important;
+  padding: 2px;
+  border-radius: 7px;
+  color: #5c5e5f;
+}

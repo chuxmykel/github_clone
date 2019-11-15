@@ -1,14 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../../img/github.png';
 import './Header.css';
 
-const Header = () => {
+const Header = props => {
+  const { handleSearch } = props;
+  const [name, handleNameChange] = useState('');
+
   return (
     <header className="Header">
       <div className="header-gp-1">
         <img className="logo" src={logo} alt="logo"></img>
         <div className="search flex">
-          <input type="text" placeholder="Search or jump to..."></input>
+          <form onSubmit={(e) => handleSearch(e, name)}>
+            <input
+              type="text"
+              name="username"
+              placeholder="Search or jump to..."
+              value={name}
+              onChange={e => handleNameChange(e.target.value)}
+            />
+          </form>
           <div className="slash-icon">/</div>
         </div>
         <nav>

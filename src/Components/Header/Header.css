@@ -25,17 +25,25 @@ header {
   margin-right: 10px;
 }
 
+.search form { height: 100%; }
+
 .search input{
   height: 100%;
   width: 273px;
   border: none;
   background: none;
   padding: 0 8px;
+  margin-right: 4px;
 }
 
 .search input::placeholder{
   font-size: 14px;
   color: #85888a;
+}
+
+.search input:focus{
+  background-color: #fafbfc;
+  outline: none;
 }
 
 .header-gp-1 {
